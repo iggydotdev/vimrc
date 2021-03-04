@@ -23,7 +23,9 @@ echo   Plug \'itchyny/lightline.vim\' >> ~/.vimrc
 echo   Plug \'ayu-theme/ayu-vim\' >> ~/.vimrc
 echo call plug#end\(\) >> ~/.vimrc
 
+echo \" Lightline config >> ~/.vimrc
 echo set noshowmode >> ~/.vimrc
+echo set laststatus=2 >> ~/.vimrc
 
 echo \" Colors - GUI stuff... >> ~/.vimrc
 echo set termguicolors >> ~/.vimrc
@@ -34,3 +36,4 @@ echo \" Remaps >> ~/.vimrc
 echo let mapleader = \" \" >> ~/.vimrc
 echo nnoremap \<leader\>pv :Vex\<CR\> >> ~/.vimrc
 echo nnoremap \<leader\>\<CR\> :so ~/.vimrc\<CR\> >> ~/.vimrc
+echo nnoremap \<leader\>\<esc\> :q!\<CR\>
