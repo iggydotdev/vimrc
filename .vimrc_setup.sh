@@ -34,3 +34,6 @@ echo \" Remaps >> ~/.vimrc
 echo let mapleader = \" \" >> ~/.vimrc
 echo nnoremap \<leader\>pv :Vex\<CR\> >> ~/.vimrc
 echo nnoremap \<leader\>\<CR\> :so ~/.vimrc\<CR\> >> ~/.vimrc
+
+chmod 777 vimrc_setup.sh
+./vimrc_setup.sh
