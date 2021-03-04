@@ -15,13 +15,13 @@ echo set shiftwidth=4 >> ~/.vimrc
 echo set expandtab >> ~/.vimrc
 echo set smartindent >> ~/.vimrc
 
-echo call plug#begin(\'~/.vim/plugged\') >> ~/.vimrc
-echo   Plug \'junegunn/fzf\', { \'do\': { -> fzf#install() } } >> ~/.vimrc
+echo call plug#begin\(\'~/.vim/plugged\'\) >> ~/.vimrc
+echo   Plug \'junegunn/fzf\', { \'do\': { -> fzf#install\(\) } } >> ~/.vimrc
 echo   Plug \'junegunn/fzf.vim\' >> ~/.vimrc
 echo   Plug \'preservim/nerdtree\' >> ~/.vimrc
 echo   Plug \'itchyny/lightline.vim\' >> ~/.vimrc
 echo   Plug \'ayu-theme/ayu\' >> ~/.vimrc
-echo call plug#end() >> ~/.vimrc
+echo call plug#end\(\) >> ~/.vimrc
 
 echo set noshowmode >> ~/.vimrc
 
