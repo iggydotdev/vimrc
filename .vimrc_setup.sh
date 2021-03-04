@@ -9,7 +9,7 @@ echo \" My custom vimrc file >> ~/.vimrc
 echo set guicursor= >> ~/.vimrc
 echo set scrolloff=8 >> ~/.vimrc
 echo set number >> ~/.vimrc
-echo set relativenumber
+echo set relativenumber >> ~/.vimrc
 echo set tabstop=4 softtabstop=4 >> ~/.vimrc
 echo set shiftwidth=4 >> ~/.vimrc
 echo set expandtab >> ~/.vimrc
