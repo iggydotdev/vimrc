@@ -32,5 +32,5 @@ echo colorscheme ayu >> ~/.vimrc
 
 echo \" Remaps >> ~/.vimrc
 echo let mapleader = \" \" >> ~/.vimrc
-echo nnoremap \<leader\>pv :Vex<CR> >> ~/.vimrc
+echo nnoremap \<leader\>pv :Vex\<CR\> >> ~/.vimrc
 echo nnoremap \<leader\>\<CR\> :so ~/.vimrc\<CR\> >> ~/.vimrc
